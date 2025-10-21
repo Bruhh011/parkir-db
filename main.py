@@ -35,14 +35,25 @@ load_menjabat = ["python", "./menjabat.py"]
 load_jadwal = ["python", "./jadwal.py"]
 load_insiden = ["python", "./insiden.py"]
 
-results = [load_db, load_petugas, load_jabatan, load_lokasi, load_kendaraan, load_pintu, load_absensi, load_menjabat, load_jadwal, load_insiden]
+results = [
+        ("load_db", load_db), 
+        ("load_petugas", load_petugas), 
+        ("load_jabatan", load_jabatan), 
+        ("load_lokasi", load_lokasi), 
+        ("load_kendaraan", load_kendaraan),
+        ("load_pintu", load_pintu), 
+        ("load_absensi", load_absensi), 
+        ("load_menjabat", load_menjabat), 
+        ("load_jadwal", load_jadwal), 
+        ("load_insiden", load_insiden)
+        ]
 
-for i in results:
+for process, i in results:
     result = subprocess.run(i)
     if result.returncode == 0:
-        print(f"{i} Success")
+        print(f"\033[92m{process} Success\033[0m")
     else:
-        print(f"{i} Failed")
+        print(f"\033[91m{process} Failed\033[0m")
 
 
 conn.commit()
