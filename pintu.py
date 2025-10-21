@@ -11,10 +11,8 @@ conn = psycopg2.connect(
         )
 cur = conn.cursor()
 
-rand_num = [random.randint(1,10) for _ in range(10)]
-
-rand_num_lst = rand_num
-mid = len(rand_num) // 2
+rand_num_lst = random.sample(range(0, 11), 10)
+mid = len(rand_num_lst) // 2
 pintu_masuk_lst = rand_num_lst[:mid]
 pintu_keluar_lst = rand_num_lst[mid:]
 
