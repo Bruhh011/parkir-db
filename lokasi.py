@@ -16,7 +16,7 @@ ketersediaan_lst = ["kosong", "ditempati"]
 for i in range(100):
     lantai = random.randint(1,3)
     ketersediaan = "".join(random.choices(ketersediaan_lst))
-    cur.execute("INSERT INTO lokasi(lantai, no_tempat, ketersediaan) VALUES (%s, %s, %s) ON CONFLICT DO NOTHING", (lantai, i, ketersediaan,))
+    cur.execute("INSERT INTO lokasi(lantai, no_tempat, ketersediaan) VALUES (%s, %s, %s) ON CONFLICT DO NOTHING", (lantai, i + 1, ketersediaan,))
 
 conn.commit()
 cur.close()
