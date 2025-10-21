@@ -27,7 +27,7 @@ for x in range(5):
 for y in range(5):
     pintu_keluar = pintu_keluar_lst[y]
     no_tempat_keluar = random.randint(1,100)
-    cur.execute("INSERT INTO pintu(no_pintu, jenis_pintu, no_tempat) VALUES (%s, %s, %s) ON CONFLICT DO NOTHING", (pintu_masuk, "keluar", no_tempat_keluar,))
+    cur.execute("INSERT INTO pintu(no_pintu, jenis_pintu, no_tempat) VALUES (%s, %s, %s) ON CONFLICT DO NOTHING", (pintu_keluar, "keluar", no_tempat_keluar,))
 
 
 
