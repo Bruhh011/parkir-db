@@ -63,6 +63,16 @@ for process, i in results:
     else:
         print(f"\033[91m{process} Failed\033[0m")
 
+with open("saved_db.sql", "w") as outfile:
+    result = subprocess.run(
+        ["pg_dump", "-U", "postgres", "-d", "parkir"],
+        stdout=outfile
+    )
+    if result.returncode == 0:
+        print(f"\033[92m{process} Success\033[0m")
+    else:
+        print(f"\033[91m{process} Failed\033[0m")
+
 
 db_close(conn, cur)
 
