@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 8yoAGdFImKyXevXIN8bSZQ6zhy5gZq4GqvELwfsw3i54TJCkSHzfQ2LpBOvc1IQ
+\restrict WCBPhAQpObIhlBIgbsPXeOPo0b5CBzubmguxG2eOyYS39vPLJSyoiqS5hVBJGj7
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -28,8 +28,8 @@ SET default_table_access_method = heap;
 --
 
 CREATE TABLE public.absensi (
-    id_petugas integer,
-    tanggal_absen timestamp with time zone,
+    id_petugas integer NOT NULL,
+    tanggal_absen timestamp with time zone NOT NULL,
     kehadiran character varying(255)
 );
 
@@ -112,8 +112,8 @@ ALTER TABLE public.lokasi OWNER TO postgres;
 --
 
 CREATE TABLE public.menjabat (
-    id_petugas integer,
-    id_jabatan integer
+    id_petugas integer NOT NULL,
+    id_jabatan integer NOT NULL
 );
 
 
@@ -217,6 +217,14 @@ COPY public.pintu (no_pintu, jenis_pintu, no_tempat) FROM stdin;
 
 
 --
+-- Name: absensi absensi_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.absensi
+    ADD CONSTRAINT absensi_pkey PRIMARY KEY (id_petugas, tanggal_absen);
+
+
+--
 -- Name: insiden insiden_ID_Rekaman; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -254,6 +262,14 @@ ALTER TABLE ONLY public.kendaraan
 
 ALTER TABLE ONLY public.lokasi
     ADD CONSTRAINT lokasi_pkey PRIMARY KEY (no_tempat);
+
+
+--
+-- Name: menjabat menjabat_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.menjabat
+    ADD CONSTRAINT menjabat_pkey PRIMARY KEY (id_petugas, id_jabatan);
 
 
 --
@@ -355,5 +371,5 @@ ALTER TABLE ONLY public.pintu
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 8yoAGdFImKyXevXIN8bSZQ6zhy5gZq4GqvELwfsw3i54TJCkSHzfQ2LpBOvc1IQ
+\unrestrict WCBPhAQpObIhlBIgbsPXeOPo0b5CBzubmguxG2eOyYS39vPLJSyoiqS5hVBJGj7
 
