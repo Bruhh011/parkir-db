@@ -13,6 +13,7 @@ def db_restart():
         )
     cur = conn.cursor()
     conn.autocommit = True
+    cur.execute("SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE datname = 'parkir' AND pid <> pg_backend_pid();")
     cur.execute("DROP DATABASE IF EXISTS parkir;")
     cur.execute("CREATE DATABASE parkir;")
     cur.close()
