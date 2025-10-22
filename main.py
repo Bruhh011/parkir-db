@@ -1,7 +1,17 @@
 #!/usr/bin/python
 
-import psycopg2
+import sys
 import subprocess
+import importlib
+
+packages = ["rstr", "psycopg2", "datetime"]  
+for package_name in packages:
+    try:
+        importlib.import_module(package_name)
+    except ModuleNotFoundError:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", package_name])
+
+import psycopg2
 import os
 from db_utils import db_restart, db_con, db_close
 
@@ -11,6 +21,11 @@ if os_name == "nt" or os_name == "darwin":
     postgre_path = input("Enter postgresql path (absolute): ").strip()
     python_path = input("Enter python path (absolute): ").strip()
     os.environ["PATH"] += os.pathstep + postgres_path + os.pathstep + python_path
+    test_postgre = subprocess.run(["psql", "--help"], stdout=devnull, stderr=devnull)
+    test_python = subprocess.run(["python", "--help"], stdout=devnull, stderr=devnull)
+    if test_postgre.returncode != 0 or test_python.returncode != 0:
+        print("psql/python tdk bisa dipakai")
+
 
 db_restart()
 conn, cur = db_con()
