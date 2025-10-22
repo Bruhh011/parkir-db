@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict tM0PQbixphMSJX0uWGGYyAqtPEtGzFUXdAV401AdMQcB9b5RW955zMh4mtWf5yp
+\restrict TXenSmz4vKeOrp1buOv7mccCnv0mHfGHzEmFKoJ1oqkqiL2to9IOgQbThdYZBCb
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -1157,106 +1157,106 @@ COPY public.absensi (id_petugas, tanggal_absen, kehadiran) FROM stdin;
 --
 
 COPY public.insiden (id_rekaman, keterangan, no_struk) FROM stdin;
-0	Kehilangan komponen kendaraan	25
-1	Kehilangan komponen kendaraan	58
-2	Kehilangan komponen kendaraan	95
-3	Kehilangan komponen kendaraan	7
-4	Kehilangan komponen kendaraan	26
-5	Kehilangan komponen kendaraan	33
-6	Kehilangan komponen kendaraan	93
-7	Kehilangan komponen kendaraan	32
-8	Kehilangan komponen kendaraan	48
-9	Kehilangan komponen kendaraan	86
-10	Kehilangan komponen kendaraan	58
-11	Kehilangan komponen kendaraan	27
-12	Kehilangan komponen kendaraan	63
-13	Kehilangan komponen kendaraan	37
-14	Kehilangan komponen kendaraan	73
-15	Kehilangan komponen kendaraan	26
-16	Kehilangan komponen kendaraan	27
-17	Kehilangan komponen kendaraan	15
-18	Kehilangan komponen kendaraan	97
-19	Kehilangan komponen kendaraan	9
-20	Kehilangan komponen kendaraan	38
-21	Kehilangan komponen kendaraan	72
-22	Kehilangan komponen kendaraan	7
-23	Kehilangan komponen kendaraan	0
-24	Kehilangan komponen kendaraan	65
-25	Kehilangan komponen kendaraan	54
-26	Kehilangan komponen kendaraan	6
-27	Kehilangan komponen kendaraan	50
-28	Kehilangan komponen kendaraan	64
-29	Kehilangan komponen kendaraan	41
-30	Kehilangan komponen kendaraan	83
-31	Kehilangan komponen kendaraan	49
-32	Kehilangan komponen kendaraan	56
-33	Kehilangan komponen kendaraan	50
-34	Kehilangan komponen kendaraan	79
-35	Kehilangan komponen kendaraan	42
-36	Kehilangan komponen kendaraan	56
-37	Kehilangan komponen kendaraan	1
-38	Kehilangan komponen kendaraan	36
-39	Kehilangan komponen kendaraan	18
-40	Kehilangan komponen kendaraan	48
-41	Kehilangan komponen kendaraan	57
-42	Kehilangan komponen kendaraan	83
-43	Kehilangan komponen kendaraan	6
-44	Kehilangan komponen kendaraan	3
-45	Kehilangan komponen kendaraan	58
-46	Kehilangan komponen kendaraan	22
-47	Kehilangan komponen kendaraan	50
-48	Kehilangan komponen kendaraan	32
-49	Kehilangan komponen kendaraan	82
-50	Kehilangan komponen kendaraan	53
-51	Kehilangan komponen kendaraan	87
-52	Kehilangan komponen kendaraan	15
-53	Kehilangan komponen kendaraan	37
-54	Kehilangan komponen kendaraan	97
-55	Kehilangan komponen kendaraan	16
-56	Kehilangan komponen kendaraan	99
-57	Kehilangan komponen kendaraan	52
-58	Kehilangan komponen kendaraan	36
-59	Kehilangan komponen kendaraan	78
-60	Kehilangan komponen kendaraan	72
-61	Kehilangan komponen kendaraan	56
-62	Kehilangan komponen kendaraan	64
-63	Kehilangan komponen kendaraan	99
-64	Kehilangan komponen kendaraan	58
-65	Kehilangan komponen kendaraan	17
-66	Kehilangan komponen kendaraan	46
-67	Kehilangan komponen kendaraan	75
-68	Kehilangan komponen kendaraan	94
-69	Kehilangan komponen kendaraan	54
-70	Kehilangan komponen kendaraan	30
-71	Kehilangan komponen kendaraan	33
-72	Kehilangan komponen kendaraan	51
-73	Kehilangan komponen kendaraan	92
-74	Kehilangan komponen kendaraan	93
-75	Kehilangan komponen kendaraan	22
-76	Kehilangan komponen kendaraan	5
-77	Kehilangan komponen kendaraan	41
-78	Kehilangan komponen kendaraan	56
-79	Kehilangan komponen kendaraan	52
-80	Kehilangan komponen kendaraan	9
-81	Kehilangan komponen kendaraan	80
-82	Kehilangan komponen kendaraan	89
-83	Kehilangan komponen kendaraan	74
-84	Kehilangan komponen kendaraan	25
-85	Kehilangan komponen kendaraan	22
-86	Kehilangan komponen kendaraan	87
-87	Kehilangan komponen kendaraan	19
-88	Kehilangan komponen kendaraan	87
-89	Kehilangan komponen kendaraan	25
-90	Kehilangan komponen kendaraan	9
-91	Kehilangan komponen kendaraan	0
-92	Kehilangan komponen kendaraan	92
-93	Kehilangan komponen kendaraan	59
-94	Kehilangan komponen kendaraan	51
-95	Kehilangan komponen kendaraan	41
-96	Kehilangan komponen kendaraan	61
-97	Kehilangan komponen kendaraan	66
-98	Kehilangan komponen kendaraan	5
-99	Kehilangan komponen kendaraan	81
+0	Kehilangan komponen kendaraan	37
+1	Kehilangan komponen kendaraan	70
+2	Kehilangan komponen kendaraan	20
+3	Kehilangan komponen kendaraan	81
+4	Kehilangan komponen kendaraan	90
+5	Kehilangan komponen kendaraan	19
+6	Kehilangan komponen kendaraan	95
+7	Kehilangan komponen kendaraan	39
+8	Kehilangan komponen kendaraan	61
+9	Kehilangan komponen kendaraan	88
+10	Kehilangan komponen kendaraan	41
+11	Kehilangan komponen kendaraan	44
+12	Kehilangan komponen kendaraan	11
+13	Kehilangan komponen kendaraan	45
+14	Kehilangan komponen kendaraan	41
+15	Kehilangan komponen kendaraan	20
+16	Kehilangan komponen kendaraan	85
+17	Kehilangan komponen kendaraan	85
+18	Kehilangan komponen kendaraan	84
+19	Kehilangan komponen kendaraan	66
+20	Kehilangan komponen kendaraan	8
+21	Kehilangan komponen kendaraan	17
+22	Kehilangan komponen kendaraan	74
+23	Kehilangan komponen kendaraan	49
+24	Kehilangan komponen kendaraan	45
+25	Kehilangan komponen kendaraan	76
+26	Kehilangan komponen kendaraan	94
+27	Kehilangan komponen kendaraan	72
+28	Kehilangan komponen kendaraan	90
+29	Kehilangan komponen kendaraan	60
+30	Kehilangan komponen kendaraan	73
+31	Kehilangan komponen kendaraan	75
+32	Kehilangan komponen kendaraan	30
+33	Kehilangan komponen kendaraan	93
+34	Kehilangan komponen kendaraan	80
+35	Kehilangan komponen kendaraan	4
+36	Kehilangan komponen kendaraan	41
+37	Kehilangan komponen kendaraan	95
+38	Kehilangan komponen kendaraan	1
+39	Kehilangan komponen kendaraan	41
+40	Kehilangan komponen kendaraan	8
+41	Kehilangan komponen kendaraan	76
+42	Kehilangan komponen kendaraan	12
+43	Kehilangan komponen kendaraan	95
+44	Kehilangan komponen kendaraan	14
+45	Kehilangan komponen kendaraan	91
+46	Kehilangan komponen kendaraan	2
+47	Kehilangan komponen kendaraan	80
+48	Kehilangan komponen kendaraan	91
+49	Kehilangan komponen kendaraan	37
+50	Kehilangan komponen kendaraan	94
+51	Kehilangan komponen kendaraan	51
+52	Kehilangan komponen kendaraan	31
+53	Kehilangan komponen kendaraan	77
+54	Kehilangan komponen kendaraan	83
+55	Kehilangan komponen kendaraan	50
+56	Kehilangan komponen kendaraan	20
+57	Kehilangan komponen kendaraan	17
+58	Kehilangan komponen kendaraan	26
+59	Kehilangan komponen kendaraan	56
+60	Kehilangan komponen kendaraan	26
+61	Kehilangan komponen kendaraan	91
+62	Kehilangan komponen kendaraan	21
+63	Kehilangan komponen kendaraan	12
+64	Kehilangan komponen kendaraan	90
+65	Kehilangan komponen kendaraan	10
+66	Kehilangan komponen kendaraan	50
+67	Kehilangan komponen kendaraan	3
+68	Kehilangan komponen kendaraan	88
+69	Kehilangan komponen kendaraan	34
+70	Kehilangan komponen kendaraan	29
+71	Kehilangan komponen kendaraan	76
+72	Kehilangan komponen kendaraan	44
+73	Kehilangan komponen kendaraan	72
+74	Kehilangan komponen kendaraan	77
+75	Kehilangan komponen kendaraan	1
+76	Kehilangan komponen kendaraan	32
+77	Kehilangan komponen kendaraan	82
+78	Kehilangan komponen kendaraan	86
+79	Kehilangan komponen kendaraan	40
+80	Kehilangan komponen kendaraan	38
+81	Kehilangan komponen kendaraan	78
+82	Kehilangan komponen kendaraan	29
+83	Kehilangan komponen kendaraan	39
+84	Kehilangan komponen kendaraan	33
+85	Kehilangan komponen kendaraan	82
+86	Kehilangan komponen kendaraan	12
+87	Kehilangan komponen kendaraan	66
+88	Kehilangan komponen kendaraan	43
+89	Kehilangan komponen kendaraan	56
+90	Kehilangan komponen kendaraan	27
+91	Kehilangan komponen kendaraan	37
+92	Kehilangan komponen kendaraan	5
+93	Kehilangan komponen kendaraan	49
+94	Kehilangan komponen kendaraan	2
+95	Kehilangan komponen kendaraan	4
+96	Kehilangan komponen kendaraan	78
+97	Kehilangan komponen kendaraan	62
+98	Kehilangan komponen kendaraan	21
+99	Kehilangan komponen kendaraan	51
 \.
 
 
@@ -1283,106 +1283,106 @@ COPY public.jabatan (id_jabatan, nama_jabatan, hak_akses, gaji_pokok) FROM stdin
 --
 
 COPY public.jadwal (no_struk, tanggal, jam_masuk, jam_keluar, id_petugas, plat_nomor, bayar, no_pintu, no_tempat) FROM stdin;
-0	2025-05-12 00:00:00+07	8:51	11:21	0	K 8262 Y	3000	5	41
-1	2023-08-17 00:00:00+07	7:46	10:13	8	N 5691 YP	3000	7	63
-2	2023-01-16 00:00:00+07	9:33	12:55	0	AD 3288 LN	5000	9	47
-3	2022-04-12 00:00:00+07	8:10	12:57	0	S 8232 LG	3000	10	73
-4	2021-10-20 00:00:00+07	8:56	12:10	0	A 2994 S	5000	8	67
-5	2025-04-16 00:00:00+07	9:33	12:11	1	F 1389 RC	5000	2	38
-6	2022-06-01 00:00:00+07	7:21	10:20	2	H 7896 BY	5000	2	39
-7	2024-07-26 00:00:00+07	8:28	12:03	0	S 1853 E	5000	6	99
-8	2022-08-22 00:00:00+07	8:23	10:29	4	AD 5963 XR	3000	10	98
-9	2023-09-22 00:00:00+07	7:26	11:27	1	N 6463 GH	5000	9	57
-10	2024-05-05 00:00:00+07	8:35	10:02	5	K 3245 HF	3000	0	36
-11	2023-07-11 00:00:00+07	9:51	10:20	0	T 7728 R	5000	7	94
-12	2025-10-27 00:00:00+07	8:13	10:58	0	F 2239 N	5000	0	2
-13	2025-10-26 00:00:00+07	8:25	11:57	4	D 5795 V	3000	2	68
-14	2024-11-06 00:00:00+07	7:31	10:14	8	N 5741 OJ	5000	5	60
-15	2022-09-07 00:00:00+07	8:20	12:42	5	T 4863 S	5000	10	7
-16	2021-07-22 00:00:00+07	8:39	11:36	4	A 9629 O	3000	6	93
-17	2023-11-30 00:00:00+07	7:20	10:13	3	F 8614 Q	3000	3	13
-18	2021-07-31 00:00:00+07	8:12	10:02	1	T 3894 Q	3000	8	72
-19	2024-01-30 00:00:00+07	8:18	11:03	3	L 6338 L	3000	5	40
-20	2024-07-17 00:00:00+07	7:12	12:29	4	B 9292 IP	5000	2	35
-21	2025-10-23 00:00:00+07	7:07	11:53	8	L 7355 M	3000	10	44
-22	2022-03-19 00:00:00+07	8:40	12:03	7	F 1382 VG	3000	1	45
-23	2025-03-20 00:00:00+07	7:48	12:33	8	AD 8761 JT	5000	5	61
-24	2023-09-06 00:00:00+07	7:28	11:50	7	T 3547 RJ	3000	8	51
-25	2024-08-30 00:00:00+07	7:39	10:56	4	G 7166 EK	5000	7	69
-26	2021-05-21 00:00:00+07	9:34	12:53	3	G 7634 TQ	5000	6	21
-27	2021-02-19 00:00:00+07	8:04	10:23	6	S 1938 E	3000	0	95
-28	2022-11-25 00:00:00+07	7:03	12:59	4	L 6918 ZM	3000	1	9
-29	2021-10-13 00:00:00+07	7:47	11:19	1	AA 4763 R	5000	0	35
-30	2021-11-09 00:00:00+07	9:56	11:19	7	T 9288 Q	5000	3	37
-31	2024-05-19 00:00:00+07	7:21	11:26	0	N 7761 PI	3000	7	50
-32	2022-10-20 00:00:00+07	8:39	10:12	0	B 3728 PT	5000	0	39
-33	2022-08-18 00:00:00+07	9:56	11:04	4	E 9639 R	3000	3	84
-34	2025-08-16 00:00:00+07	7:36	10:33	9	M 8444 K	5000	2	51
-35	2022-06-24 00:00:00+07	8:41	11:58	3	D 2333 BE	5000	7	8
-36	2025-07-07 00:00:00+07	9:02	10:57	6	AA 4111 EZ	3000	3	24
-37	2023-06-18 00:00:00+07	9:48	12:13	2	H 7891 VY	3000	9	17
-38	2025-07-05 00:00:00+07	7:36	10:21	0	S 6329 QX	5000	10	23
-39	2021-06-30 00:00:00+07	8:58	12:17	1	T 4742 L	3000	2	46
-40	2023-02-05 00:00:00+07	8:48	11:30	3	AB 3233 Q	3000	5	36
-41	2025-02-26 00:00:00+07	9:34	11:23	3	S 5629 S	3000	5	87
-42	2022-05-18 00:00:00+07	7:59	12:00	6	A 9887 TL	5000	0	68
-43	2025-10-29 00:00:00+07	8:10	10:17	8	K 2346 IZ	5000	2	62
-44	2024-08-26 00:00:00+07	9:17	11:54	1	A 8486 VH	3000	10	21
-45	2022-05-10 00:00:00+07	7:57	12:35	3	AB 5231 U	5000	3	38
-46	2022-05-25 00:00:00+07	7:50	10:16	3	N 5627 NX	3000	10	59
-47	2023-07-22 00:00:00+07	8:05	12:23	9	L 8231 X	5000	9	28
-48	2022-01-23 00:00:00+07	8:08	10:38	6	E 4289 T	5000	10	86
-49	2021-01-02 00:00:00+07	8:15	12:06	6	S 8284 OM	3000	2	16
-50	2023-07-30 00:00:00+07	7:52	12:21	5	M 9465 N	3000	0	1
-51	2021-01-22 00:00:00+07	8:27	12:05	8	K 3672 UL	3000	0	44
-52	2023-09-27 00:00:00+07	7:16	11:12	8	E 4475 M	5000	1	3
-53	2023-11-24 00:00:00+07	9:52	10:55	7	S 6433 ZU	5000	5	55
-54	2023-01-25 00:00:00+07	9:09	12:25	4	E 9837 RP	3000	1	35
-55	2022-04-22 00:00:00+07	7:46	12:57	7	AB 1354 EB	3000	6	15
-56	2023-08-05 00:00:00+07	9:45	12:50	0	M 3161 I	3000	2	46
-57	2023-02-10 00:00:00+07	7:09	10:28	5	AD 1279 EV	3000	7	95
-58	2021-11-08 00:00:00+07	7:45	11:23	1	AB 4422 BM	3000	0	32
-59	2024-08-30 00:00:00+07	9:43	12:55	0	M 4547 A	5000	8	95
-60	2021-12-12 00:00:00+07	8:40	11:12	3	G 9529 J	5000	7	13
-61	2022-04-01 00:00:00+07	8:52	11:53	8	S 2737 G	3000	9	52
-62	2023-06-06 00:00:00+07	7:43	12:25	9	AA 7272 V	5000	1	3
-63	2022-07-03 00:00:00+07	9:19	11:05	0	B 1379 XJ	3000	2	18
-64	2025-07-12 00:00:00+07	9:55	10:59	7	F 2935 P	5000	2	53
-65	2022-10-26 00:00:00+07	8:48	10:48	1	F 2862 QH	5000	8	77
-66	2024-09-05 00:00:00+07	8:42	12:45	0	A 5992 J	5000	8	23
-67	2023-04-21 00:00:00+07	8:58	10:41	6	AA 2178 BH	5000	9	88
-68	2024-07-23 00:00:00+07	8:19	11:17	9	T 8417 GO	5000	1	61
-69	2021-12-27 00:00:00+07	8:49	11:14	7	N 9257 RB	3000	5	53
-70	2024-02-14 00:00:00+07	9:19	10:23	2	AB 6565 IN	3000	0	2
-71	2021-07-15 00:00:00+07	8:03	10:58	4	S 8316 K	3000	6	25
-72	2021-07-28 00:00:00+07	9:39	11:00	6	A 9653 A	3000	10	63
-73	2023-05-19 00:00:00+07	8:41	10:10	9	AB 3473 BB	3000	9	80
-74	2024-07-10 00:00:00+07	8:11	11:51	7	AD 4341 DB	3000	3	71
-75	2023-08-14 00:00:00+07	7:38	11:33	7	B 6414 DG	3000	0	15
-76	2022-11-12 00:00:00+07	9:55	10:07	8	M 3973 AI	3000	9	24
-77	2023-11-15 00:00:00+07	7:35	11:27	1	F 7761 S	3000	10	1
-78	2025-02-06 00:00:00+07	7:33	12:10	2	N 2627 XF	5000	3	1
-79	2021-10-22 00:00:00+07	9:53	12:07	3	K 7132 IP	5000	0	76
-80	2021-12-11 00:00:00+07	7:56	11:16	0	AD 2254 FR	5000	3	74
-81	2024-11-19 00:00:00+07	8:22	10:43	4	L 5128 OL	3000	1	13
-82	2025-01-11 00:00:00+07	9:03	10:38	9	B 3847 QG	5000	9	5
-83	2022-08-04 00:00:00+07	9:22	10:44	6	AD 4346 TL	5000	9	7
-84	2025-01-16 00:00:00+07	7:57	10:57	0	S 8664 BX	3000	0	1
-85	2024-07-15 00:00:00+07	9:27	12:14	6	H 8997 O	3000	5	96
-86	2023-06-14 00:00:00+07	8:07	10:00	2	H 8852 R	3000	6	9
-87	2025-04-15 00:00:00+07	7:41	10:04	8	S 6182 T	3000	0	97
-88	2023-01-16 00:00:00+07	7:07	12:00	5	T 2161 B	3000	8	44
-89	2024-06-23 00:00:00+07	8:53	10:36	4	G 3164 N	3000	3	78
-90	2025-04-05 00:00:00+07	8:42	10:20	0	D 3378 AZ	3000	1	3
-91	2023-01-12 00:00:00+07	9:55	11:20	0	K 1447 E	3000	5	60
-92	2024-03-25 00:00:00+07	8:44	12:06	5	AD 2715 S	5000	8	25
-93	2021-10-27 00:00:00+07	8:23	11:18	4	H 1991 N	3000	0	46
-94	2025-06-28 00:00:00+07	7:12	11:24	5	H 8112 L	5000	9	73
-95	2021-02-27 00:00:00+07	7:57	10:38	2	B 4771 GZ	5000	10	32
-96	2025-09-21 00:00:00+07	8:00	11:38	1	N 1185 Y	3000	3	35
-97	2023-09-10 00:00:00+07	8:45	10:21	7	S 4226 L	3000	6	5
-98	2024-11-15 00:00:00+07	7:18	12:17	2	D 6744 K	3000	0	40
-99	2024-07-02 00:00:00+07	9:46	11:40	8	AD 9118 DA	5000	9	93
+0	2025-05-12 00:00:00+07	8:51	11:21	3	H 8167 HI	3000	7	57
+1	2023-08-17 00:00:00+07	7:46	10:13	4	M 8651 XW	3000	6	97
+2	2023-01-16 00:00:00+07	9:33	12:55	7	A 7135 UV	5000	2	37
+3	2022-04-12 00:00:00+07	8:10	12:57	5	T 2136 FI	3000	3	35
+4	2021-10-20 00:00:00+07	8:56	12:10	8	S 8467 JZ	5000	6	97
+5	2025-04-16 00:00:00+07	9:33	12:11	3	A 4692 C	3000	3	93
+6	2022-06-01 00:00:00+07	7:21	10:20	4	S 2379 S	5000	2	93
+7	2024-07-26 00:00:00+07	8:28	12:03	8	F 2946 K	5000	10	94
+8	2022-08-22 00:00:00+07	8:23	10:29	9	T 2991 U	5000	7	59
+9	2023-09-22 00:00:00+07	7:26	11:27	3	L 2529 V	3000	0	100
+10	2024-05-05 00:00:00+07	8:35	10:02	5	B 7913 CO	5000	2	41
+11	2023-07-11 00:00:00+07	9:51	10:20	9	E 7479 F	3000	8	18
+12	2025-10-27 00:00:00+07	8:13	10:58	7	AD 9989 IO	3000	3	58
+13	2025-10-26 00:00:00+07	8:25	11:57	5	A 9374 K	3000	5	78
+14	2024-11-06 00:00:00+07	7:31	10:14	7	M 9978 G	5000	0	73
+15	2022-09-07 00:00:00+07	8:20	12:42	1	N 4677 W	5000	2	94
+16	2021-07-22 00:00:00+07	8:39	11:36	9	N 7656 J	5000	5	2
+17	2023-11-30 00:00:00+07	7:20	10:13	8	A 1573 CA	3000	2	13
+18	2021-07-31 00:00:00+07	8:12	10:02	6	M 9954 A	5000	8	72
+19	2024-01-30 00:00:00+07	8:18	11:03	3	E 3575 OL	3000	0	93
+20	2024-07-17 00:00:00+07	7:12	12:29	6	F 2997 JX	5000	5	26
+21	2025-10-23 00:00:00+07	7:07	11:53	1	AB 2171 M	3000	0	60
+22	2022-03-19 00:00:00+07	8:40	12:03	4	AA 7334 B	3000	1	40
+23	2025-03-20 00:00:00+07	7:48	12:33	7	G 7584 N	5000	5	59
+24	2023-09-06 00:00:00+07	7:28	11:50	1	N 8361 KT	5000	9	94
+25	2024-08-30 00:00:00+07	7:39	10:56	9	E 5888 J	3000	3	66
+26	2021-05-21 00:00:00+07	9:34	12:53	8	E 7434 SE	5000	7	54
+27	2021-02-19 00:00:00+07	8:04	10:23	9	G 3646 P	5000	3	18
+28	2022-11-25 00:00:00+07	7:03	12:59	6	L 4496 K	5000	9	39
+29	2021-10-13 00:00:00+07	7:47	11:19	4	N 2476 X	5000	7	97
+30	2021-11-09 00:00:00+07	9:56	11:19	9	M 2366 J	5000	8	66
+31	2024-05-19 00:00:00+07	7:21	11:26	3	AD 4963 S	3000	7	7
+32	2022-10-20 00:00:00+07	8:39	10:12	8	S 4765 P	3000	2	98
+33	2022-08-18 00:00:00+07	9:56	11:04	8	H 7767 H	3000	6	63
+34	2025-08-16 00:00:00+07	7:36	10:33	2	S 2399 SE	5000	0	57
+35	2022-06-24 00:00:00+07	8:41	11:58	9	D 4175 CX	3000	9	64
+36	2025-07-07 00:00:00+07	9:02	10:57	9	B 1346 O	5000	1	25
+37	2023-06-18 00:00:00+07	9:48	12:13	2	B 4368 HX	3000	3	41
+38	2025-07-05 00:00:00+07	7:36	10:21	6	K 6965 D	5000	3	13
+39	2021-06-30 00:00:00+07	8:58	12:17	6	B 1959 JU	3000	0	40
+40	2023-02-05 00:00:00+07	8:48	11:30	5	T 6542 DR	3000	5	34
+41	2025-02-26 00:00:00+07	9:34	11:23	4	E 1841 UM	5000	9	37
+42	2022-05-18 00:00:00+07	7:59	12:00	1	K 2625 X	3000	2	53
+43	2025-10-29 00:00:00+07	8:10	10:17	8	B 1563 X	3000	0	56
+44	2024-08-26 00:00:00+07	9:17	11:54	2	N 4598 VI	3000	1	54
+45	2022-05-10 00:00:00+07	7:57	12:35	8	AA 3551 H	5000	1	20
+46	2022-05-25 00:00:00+07	7:50	10:16	9	D 5478 X	3000	0	82
+47	2023-07-22 00:00:00+07	8:05	12:23	7	K 2291 XO	5000	3	17
+48	2022-01-23 00:00:00+07	8:08	10:38	3	T 6667 AF	5000	1	73
+49	2021-01-02 00:00:00+07	8:15	12:06	0	K 6946 Z	5000	9	89
+50	2023-07-30 00:00:00+07	7:52	12:21	0	H 4427 U	3000	1	3
+51	2021-01-22 00:00:00+07	8:27	12:05	5	A 9717 U	3000	6	73
+52	2023-09-27 00:00:00+07	7:16	11:12	2	E 5676 V	3000	7	71
+53	2023-11-24 00:00:00+07	9:52	10:55	7	M 6875 WB	3000	10	74
+54	2023-01-25 00:00:00+07	9:09	12:25	6	AB 6389 EY	3000	2	43
+55	2022-04-22 00:00:00+07	7:46	12:57	1	T 5511 PP	3000	0	4
+56	2023-08-05 00:00:00+07	9:45	12:50	7	G 5452 HU	5000	8	44
+57	2023-02-10 00:00:00+07	7:09	10:28	1	AD 6133 H	3000	5	28
+58	2021-11-08 00:00:00+07	7:45	11:23	0	N 8624 OL	5000	8	37
+59	2024-08-30 00:00:00+07	9:43	12:55	4	T 1446 TU	5000	3	66
+60	2021-12-12 00:00:00+07	8:40	11:12	6	F 8358 T	5000	1	80
+61	2022-04-01 00:00:00+07	8:52	11:53	5	A 7286 J	3000	3	77
+62	2023-06-06 00:00:00+07	7:43	12:25	6	B 6964 J	5000	8	44
+63	2022-07-03 00:00:00+07	9:19	11:05	8	K 9913 C	5000	10	100
+64	2025-07-12 00:00:00+07	9:55	10:59	9	E 4172 BQ	5000	5	46
+65	2022-10-26 00:00:00+07	8:48	10:48	2	B 8716 AF	5000	2	18
+66	2024-09-05 00:00:00+07	8:42	12:45	5	T 3848 XD	5000	0	55
+67	2023-04-21 00:00:00+07	8:58	10:41	8	G 5487 O	3000	5	60
+68	2024-07-23 00:00:00+07	8:19	11:17	6	T 8399 BP	5000	1	16
+69	2021-12-27 00:00:00+07	8:49	11:14	4	T 4691 QF	5000	8	5
+70	2024-02-14 00:00:00+07	9:19	10:23	2	H 6288 UT	5000	8	6
+71	2021-07-15 00:00:00+07	8:03	10:58	9	D 8144 O	5000	5	25
+72	2021-07-28 00:00:00+07	9:39	11:00	0	F 2259 C	3000	7	46
+73	2023-05-19 00:00:00+07	8:41	10:10	7	T 6261 X	5000	10	24
+74	2024-07-10 00:00:00+07	8:11	11:51	8	AB 1714 WT	5000	9	16
+75	2023-08-14 00:00:00+07	7:38	11:33	5	N 6836 J	3000	8	37
+76	2022-11-12 00:00:00+07	9:55	10:07	0	L 9173 P	3000	10	56
+77	2023-11-15 00:00:00+07	7:35	11:27	4	H 9476 GJ	5000	5	67
+78	2025-02-06 00:00:00+07	7:33	12:10	0	E 3215 Z	3000	0	29
+79	2021-10-22 00:00:00+07	9:53	12:07	6	AD 2631 QA	5000	9	24
+80	2021-12-11 00:00:00+07	7:56	11:16	7	K 8625 CS	3000	3	73
+81	2024-11-19 00:00:00+07	8:22	10:43	8	AA 6353 W	5000	6	13
+82	2025-01-11 00:00:00+07	9:03	10:38	8	E 2734 HM	3000	10	79
+83	2022-08-04 00:00:00+07	9:22	10:44	2	G 1424 G	5000	3	17
+84	2025-01-16 00:00:00+07	7:57	10:57	8	AD 9571 XK	3000	10	78
+85	2024-07-15 00:00:00+07	9:27	12:14	2	H 7878 OY	3000	9	85
+86	2023-06-14 00:00:00+07	8:07	10:00	6	A 9746 PU	5000	2	59
+87	2025-04-15 00:00:00+07	7:41	10:04	5	B 4738 FP	3000	5	98
+88	2023-01-16 00:00:00+07	7:07	12:00	0	E 8721 FE	3000	8	54
+89	2024-06-23 00:00:00+07	8:53	10:36	4	T 8313 SD	3000	7	84
+90	2025-04-05 00:00:00+07	8:42	10:20	4	G 3479 J	3000	2	53
+91	2023-01-12 00:00:00+07	9:55	11:20	0	T 4317 F	3000	9	37
+92	2024-03-25 00:00:00+07	8:44	12:06	4	K 9358 IG	5000	9	31
+93	2021-10-27 00:00:00+07	8:23	11:18	2	M 5659 LH	5000	5	59
+94	2025-06-28 00:00:00+07	7:12	11:24	8	AD 3223 WX	5000	0	60
+95	2021-02-27 00:00:00+07	7:57	10:38	7	N 2964 L	3000	8	48
+96	2025-09-21 00:00:00+07	8:00	11:38	7	A 4455 PD	3000	2	25
+97	2023-09-10 00:00:00+07	8:45	10:21	1	H 8913 SE	5000	10	26
+98	2024-11-15 00:00:00+07	7:18	12:17	3	F 9563 U	5000	2	25
+99	2024-07-02 00:00:00+07	9:46	11:40	0	G 3197 W	5000	8	54
 \.
 
 
@@ -11507,16 +11507,16 @@ COPY public.lokasi (lantai, no_tempat, ketersediaan) FROM stdin;
 --
 
 COPY public.menjabat (id_petugas, id_jabatan) FROM stdin;
-4	2
-4	8
-8	9
-4	9
-8	0
-5	7
-8	3
-1	3
-0	4
+4	0
 1	5
+7	4
+8	8
+8	1
+8	1
+6	7
+5	9
+0	8
+7	5
 \.
 
 
@@ -11695,5 +11695,5 @@ ALTER TABLE ONLY public.pintu
 -- PostgreSQL database dump complete
 --
 
-\unrestrict tM0PQbixphMSJX0uWGGYyAqtPEtGzFUXdAV401AdMQcB9b5RW955zMh4mtWf5yp
+\unrestrict TXenSmz4vKeOrp1buOv7mccCnv0mHfGHzEmFKoJ1oqkqiL2to9IOgQbThdYZBCb
 
