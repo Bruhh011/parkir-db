@@ -3,13 +3,11 @@
 import psycopg2
 import rstr
 import random
+from db_utils import db_con, db_close
 
-conn = psycopg2.connect(
-        host="localhost",
-        database="parkir",
-        user="postgres"
-        )
-cur = conn.cursor()
+random.seed(1000)
+
+conn, cur = db_con()
 
 keterangan_template = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
@@ -18,10 +16,5 @@ for i in range(100):
     rand_struk = cur.fetchone()[0]
     cur.execute("INSERT INTO insiden(id_rekaman, keterangan, no_struk) VALUES (%s, %s, %s) ON CONFLICT DO NOTHING", (i, keterangan_template, rand_struk,))
 
-
-conn.commit()
-
-cur.close()
-conn.close()
-
+db_close(conn, cur)
 

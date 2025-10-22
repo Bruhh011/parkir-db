@@ -2,27 +2,18 @@
 
 import psycopg2
 import subprocess
+import os
+from db_utils import db_restart, db_con, db_close
 
-conn = psycopg2.connect(
-        host="localhost",
-        database="postgres",
-        user="postgres"
-        )
-cur = conn.cursor()
-conn.autocommit = True
-cur.execute("DROP DATABASE IF EXISTS parkir;")
-cur.execute("CREATE DATABASE parkir;")
+os_name = os.name.lower
 
-conn.commit()
-cur.close()
-conn.close()
+if os_name == "nt" or os_name == "darwin":
+    postgre_path = input("Enter postgresql path (absolute): ").strip()
+    python_path = input("Enter python path (absolute): ").strip()
+    os.environ["PATH"] += os.pathstep + postgres_path + os.pathstep + python_path
 
-conn = psycopg2.connect(
-        host="localhost",
-        database="parkir",
-        user="postgres"
-        )
-cur = conn.cursor()
+db_restart()
+conn, cur = db_con()
 
 load_db = ["psql", "-q", "-U", "postgres", "-d", "parkir", "-f", "./parkir.sql"]
 load_petugas = ["python", "./petugas.py"]
@@ -56,12 +47,7 @@ for process, i in results:
         print(f"\033[91m{process} Failed\033[0m")
 
 
-conn.commit()
-cur.close()
-conn.close()
-
-
-
+db_close(conn, cur)
 
 
 

@@ -3,13 +3,11 @@
 import psycopg2
 import rstr
 import random
+from db_utils import db_con, db_close
 
-conn = psycopg2.connect(
-        host="localhost",
-        database="parkir",
-        user="postgres"
-        )
-cur = conn.cursor()
+random.seed(1000)
+
+conn, cur = db_con()
 
 rand_num_lst = random.sample(range(0, 11), 10)
 mid = len(rand_num_lst) // 2
@@ -28,9 +26,4 @@ for y in range(5):
     cur.execute("INSERT INTO pintu(no_pintu, jenis_pintu, no_tempat) VALUES (%s, %s, %s) ON CONFLICT DO NOTHING", (pintu_keluar, "keluar", no_tempat_keluar,))
 
 
-
-conn.commit()
-
-cur.close()
-conn.close()
-
+db_close(conn, cur)

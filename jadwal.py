@@ -4,13 +4,11 @@ import psycopg2
 import rstr
 import random
 from datetime import datetime, timedelta
+from db_utils import db_con, db_close
 
-conn = psycopg2.connect(
-        host="localhost",
-        database="parkir",
-        user="postgres"
-        )
-cur = conn.cursor()
+random.seed(1000)
+
+conn, cur = db_con()
 
 def random_date(start, end):
     delta = end - start
@@ -41,9 +39,4 @@ for i in range(100):
     cur.execute("INSERT INTO jadwal(no_struk, tanggal, jam_masuk,jam_keluar, id_petugas, plat_nomor, bayar, no_pintu, no_tempat) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s) ON CONFLICT DO NOTHING", (i, rand_date,  rand_jam_masuk, rand_jam_keluar, rand_petugas, rand_plat, rand_bayar, rand_no_pintu, rand_no_tempat,))
 
 
-conn.commit()
-
-cur.close()
-conn.close()
-
-
+db_close(conn, cur)

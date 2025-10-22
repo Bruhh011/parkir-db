@@ -3,13 +3,11 @@
 import psycopg2
 import rstr
 import random
+from db_utils import db_con, db_close
 
-conn = psycopg2.connect(
-        host="localhost",
-        database="parkir",
-        user="postgres"
-        )
-cur = conn.cursor()
+random.seed(1000)
+
+conn, cur = db_con()
 
 ketersediaan_lst = ["kosong", "ditempati"]
 
@@ -18,7 +16,5 @@ for i in range(100):
     ketersediaan = "".join(random.choices(ketersediaan_lst))
     cur.execute("INSERT INTO lokasi(lantai, no_tempat, ketersediaan) VALUES (%s, %s, %s) ON CONFLICT DO NOTHING", (lantai, i + 1, ketersediaan,))
 
-conn.commit()
-cur.close()
-conn.close()
 
+db_close(conn, cur)
