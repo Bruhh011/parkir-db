@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import psycopg2
-import getpass
+from getpass import getpass
 
 def db_restart():
     pg_pass = getpass("Postgres password: ")
