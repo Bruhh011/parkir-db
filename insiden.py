@@ -9,7 +9,7 @@ random.seed(1000)
 
 conn, cur = db_con()
 
-keterangan_template = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+keterangan_template = "Kehilangan komponen kendaraan"
 
 for i in range(100):
     cur.execute("SELECT no_struk FROM jadwal ORDER BY RANDOM() LIMIT 1;")
