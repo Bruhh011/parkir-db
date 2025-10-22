@@ -15,17 +15,17 @@ import psycopg2
 import os
 from db_utils import db_restart, db_con, db_close
 
-os_name = os.name.lower
+os_name = os.name.lower()
 
-if os_name == "nt" or os_name == "darwin":
+if os_name in ["nt", "darwin"]:
     postgre_path = input("Enter postgresql path (absolute): ").strip()
     python_path = input("Enter python path (absolute): ").strip()
-    os.environ["PATH"] += os.pathstep + postgres_path + os.pathstep + python_path
-    test_postgre = subprocess.run(["psql", "--help"], stdout=devnull, stderr=devnull)
-    test_python = subprocess.run(["python", "--help"], stdout=devnull, stderr=devnull)
+    os.environ["PATH"] += os.pathsep + postgre_path + os.pathsep + python_path
+    with open(os.devnull, "w") as devnull:
+        test_postgre = subprocess.run(["psql", "--help"], stdout=devnull, stderr=devnull)
+        test_python = subprocess.run([sys.executable, "--help"], stdout=devnull, stderr=devnull)
     if test_postgre.returncode != 0 or test_python.returncode != 0:
-        print("psql/python tdk bisa dipakai")
-
+        print("psql/python cannot be used")
 
 db_restart()
 conn, cur = db_con()
