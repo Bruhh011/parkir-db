@@ -77,4 +77,6 @@ with open("saved_db.sql", "w") as outfile:
 db_close(conn, cur)
 
 
-
+if "PG_PASSWORD" in os.environ:
+    del os.environ["PG_PASSWORD"]
+    print(f"\033[92mdelete password cache\033[0m")
