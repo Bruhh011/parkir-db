@@ -22,8 +22,10 @@ if os_name in ["nt", "darwin"]:
     python_path = input("Enter python path (absolute): ").strip()
     os.environ["PATH"] += os.pathsep + postgre_path + os.pathsep + python_path
     with open(os.devnull, "w") as devnull:
-        test_postgre = subprocess.run(["psql", "--help"], stdout=devnull, stderr=devnull)
-        test_python = subprocess.run([sys.executable, "--help"], stdout=devnull, stderr=devnull)
+        psql_exe = os.path.join(postgre_path, "psql.exe")
+        test_postgre = subprocess.run([psql_exe, "--help"], stdout=devnull, stderr=devnull)
+        python_exe = os.path.join(python_path, "python.exe")
+        test_python = subprocess.run([python_exe, "--help"], stdout=devnull, stderr=devnull)
     if test_postgre.returncode != 0 or test_python.returncode != 0:
         print("psql/python cannot be used")
 
