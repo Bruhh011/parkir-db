@@ -1,12 +1,15 @@
 #!/usr/bin/python
 
 import psycopg2
+import getpass
 
 def db_restart():
+    pg_pass = getpass("Postgres password: ")
     conn = psycopg2.connect(
         host="localhost",
         database="postgres",
-        user="postgres"
+        user="postgres",
+        password=pg_pass
         )
     cur = conn.cursor()
     conn.autocommit = True
