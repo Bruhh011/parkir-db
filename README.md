@@ -1,1 +1,10 @@
-cuma work di linux btw. tinggal execute main.py. selain linux bisa dipake tapi export env path manual atau di add path
+required: 
+    psql (postgresql shell)
+    python 
+
+usage:
+    python main.py
+
+then insert postgres password. if in windows or macos, insert path to program dir (postgresql and python path)
+
+done
