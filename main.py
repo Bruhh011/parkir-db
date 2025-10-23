@@ -12,12 +12,13 @@ for package_name in packages:
         subprocess.check_call([sys.executable, "-m", "pip", "install", package_name])
 
 import psycopg2
+import platform
 import os
 from db_utils import db_restart, db_con, db_close
 
-os_name = os.name.lower()
+os_name = platform.system().lower()
 
-if os_name in ["nt", "darwin"]:
+if os_name in ["windows", "darwin"]:
     postgre_path = input("Enter postgresql path (absolute): ").strip()
     python_path = input("Enter python path (absolute): ").strip()
     os.environ["PATH"] += os.pathsep + postgre_path + os.pathsep + python_path
