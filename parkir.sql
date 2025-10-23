@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict WCBPhAQpObIhlBIgbsPXeOPo0b5CBzubmguxG2eOyYS39vPLJSyoiqS5hVBJGj7
+\restrict fAwImocqBFYWMeVhuybbhfz4cytaSzNNzwfNPa2wIYfZPtWgyFYJ2JmIZ1ncy4U
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -75,8 +75,7 @@ CREATE TABLE public.jadwal (
     id_petugas integer,
     plat_nomor character varying(255),
     bayar character varying(255),
-    no_pintu integer,
-    no_tempat integer
+    no_pintu integer
 );
 
 
@@ -172,7 +171,7 @@ COPY public.jabatan (id_jabatan, nama_jabatan, hak_akses, gaji_pokok) FROM stdin
 -- Data for Name: jadwal; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.jadwal (no_struk, tanggal, jam_masuk, jam_keluar, id_petugas, plat_nomor, bayar, no_pintu, no_tempat) FROM stdin;
+COPY public.jadwal (no_struk, tanggal, jam_masuk, jam_keluar, id_petugas, plat_nomor, bayar, no_pintu) FROM stdin;
 \.
 
 
@@ -328,14 +327,6 @@ ALTER TABLE ONLY public.jadwal
 
 
 --
--- Name: jadwal jadwal_no_tempat; Type: FK CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.jadwal
-    ADD CONSTRAINT jadwal_no_tempat FOREIGN KEY (no_tempat) REFERENCES public.lokasi(no_tempat) NOT VALID;
-
-
---
 -- Name: jadwal jadwal_plat_nomer; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -371,5 +362,5 @@ ALTER TABLE ONLY public.pintu
 -- PostgreSQL database dump complete
 --
 
-\unrestrict WCBPhAQpObIhlBIgbsPXeOPo0b5CBzubmguxG2eOyYS39vPLJSyoiqS5hVBJGj7
+\unrestrict fAwImocqBFYWMeVhuybbhfz4cytaSzNNzwfNPa2wIYfZPtWgyFYJ2JmIZ1ncy4U
 
