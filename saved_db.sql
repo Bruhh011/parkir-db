@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict qGaQ36IZlN0hXwyNrwgdibaELB4V24TuF13ng0nYkUuAfYGXrgDWA1O5RzsFxXS
+\restrict WUX0bqQwCynheIg4aFwiCOnFdB1f5qSbpdrkyN91haJqZKsfbd7cD2N4oeH7RX0
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -1129,106 +1129,106 @@ COPY public.absensi (id_petugas, tanggal_absen, kehadiran) FROM stdin;
 --
 
 COPY public.insiden (id_rekaman, keterangan, no_struk) FROM stdin;
-0	kehilangan barang	0
-1	kehilangan barang	92
-2	Kehilangan komponen kendaraan	23
-3	kehilangan kendaraan	25
-4	kehilangan kendaraan	12
-5	kehilangan kendaraan	34
-6	kehilangan barang	64
-7	Kehilangan komponen kendaraan	52
-8	kehilangan barang	66
-9	kehilangan kendaraan	66
+0	kehilangan barang	48
+1	kehilangan barang	21
+2	Kehilangan komponen kendaraan	11
+3	kehilangan kendaraan	93
+4	kehilangan kendaraan	10
+5	kehilangan kendaraan	17
+6	kehilangan barang	91
+7	Kehilangan komponen kendaraan	48
+8	kehilangan barang	69
+9	kehilangan kendaraan	84
 10	kehilangan kendaraan	92
-11	Kehilangan komponen kendaraan	66
-12	kehilangan kendaraan	47
-13	Kehilangan komponen kendaraan	31
-14	kehilangan kendaraan	30
-15	Kehilangan komponen kendaraan	66
-16	kehilangan barang	99
-17	kehilangan kendaraan	98
-18	kehilangan kendaraan	51
-19	kehilangan barang	28
+11	Kehilangan komponen kendaraan	85
+12	kehilangan kendaraan	21
+13	Kehilangan komponen kendaraan	60
+14	kehilangan kendaraan	2
+15	Kehilangan komponen kendaraan	19
+16	kehilangan barang	40
+17	kehilangan kendaraan	67
+18	kehilangan kendaraan	43
+19	kehilangan barang	31
 20	kehilangan kendaraan	35
-21	kehilangan barang	92
-22	Kehilangan komponen kendaraan	60
-23	kehilangan barang	84
-24	kehilangan kendaraan	76
-25	kehilangan barang	42
-26	kehilangan barang	28
-27	kehilangan barang	43
-28	Kehilangan komponen kendaraan	97
-29	kehilangan barang	28
-30	Kehilangan komponen kendaraan	59
-31	Kehilangan komponen kendaraan	36
-32	Kehilangan komponen kendaraan	11
-33	Kehilangan komponen kendaraan	95
-34	Kehilangan komponen kendaraan	53
-35	kehilangan barang	98
-36	Kehilangan komponen kendaraan	88
-37	kehilangan barang	9
-38	kehilangan kendaraan	79
-39	Kehilangan komponen kendaraan	73
+21	kehilangan barang	32
+22	Kehilangan komponen kendaraan	45
+23	kehilangan barang	14
+24	kehilangan kendaraan	57
+25	kehilangan barang	91
+26	kehilangan barang	7
+27	kehilangan barang	50
+28	Kehilangan komponen kendaraan	12
+29	kehilangan barang	89
+30	Kehilangan komponen kendaraan	70
+31	Kehilangan komponen kendaraan	80
+32	Kehilangan komponen kendaraan	22
+33	Kehilangan komponen kendaraan	79
+34	Kehilangan komponen kendaraan	23
+35	kehilangan barang	47
+36	Kehilangan komponen kendaraan	59
+37	kehilangan barang	8
+38	kehilangan kendaraan	67
+39	Kehilangan komponen kendaraan	95
 40	Kehilangan komponen kendaraan	94
-41	Kehilangan komponen kendaraan	81
-42	kehilangan kendaraan	36
-43	Kehilangan komponen kendaraan	28
-44	kehilangan kendaraan	76
-45	kehilangan barang	88
-46	kehilangan barang	88
-47	Kehilangan komponen kendaraan	61
-48	kehilangan kendaraan	8
-49	kehilangan kendaraan	4
-50	Kehilangan komponen kendaraan	16
-51	Kehilangan komponen kendaraan	4
-52	kehilangan barang	11
-53	Kehilangan komponen kendaraan	27
-54	Kehilangan komponen kendaraan	48
-55	kehilangan kendaraan	96
-56	Kehilangan komponen kendaraan	14
-57	Kehilangan komponen kendaraan	3
-58	kehilangan barang	64
-59	kehilangan barang	40
-60	kehilangan kendaraan	47
-61	Kehilangan komponen kendaraan	1
-62	kehilangan barang	70
-63	kehilangan kendaraan	28
-64	kehilangan kendaraan	63
-65	Kehilangan komponen kendaraan	6
-66	kehilangan kendaraan	92
-67	Kehilangan komponen kendaraan	20
-68	kehilangan barang	66
-69	kehilangan kendaraan	58
-70	Kehilangan komponen kendaraan	17
-71	kehilangan barang	30
-72	kehilangan barang	38
-73	kehilangan barang	2
-74	kehilangan barang	68
-75	Kehilangan komponen kendaraan	71
-76	kehilangan barang	15
-77	kehilangan barang	58
-78	kehilangan kendaraan	91
-79	Kehilangan komponen kendaraan	89
-80	kehilangan kendaraan	79
-81	kehilangan kendaraan	11
-82	Kehilangan komponen kendaraan	27
-83	kehilangan kendaraan	31
-84	kehilangan barang	70
-85	kehilangan kendaraan	53
-86	kehilangan kendaraan	71
-87	kehilangan barang	13
-88	kehilangan barang	67
-89	kehilangan barang	86
-90	Kehilangan komponen kendaraan	93
-91	kehilangan barang	38
-92	Kehilangan komponen kendaraan	74
-93	kehilangan kendaraan	92
-94	kehilangan barang	29
-95	Kehilangan komponen kendaraan	50
-96	Kehilangan komponen kendaraan	52
-97	Kehilangan komponen kendaraan	5
-98	Kehilangan komponen kendaraan	53
-99	kehilangan kendaraan	99
+41	Kehilangan komponen kendaraan	53
+42	kehilangan kendaraan	8
+43	Kehilangan komponen kendaraan	4
+44	kehilangan kendaraan	78
+45	kehilangan barang	9
+46	kehilangan barang	78
+47	Kehilangan komponen kendaraan	57
+48	kehilangan kendaraan	96
+49	kehilangan kendaraan	93
+50	Kehilangan komponen kendaraan	97
+51	Kehilangan komponen kendaraan	73
+52	kehilangan barang	7
+53	Kehilangan komponen kendaraan	93
+54	Kehilangan komponen kendaraan	94
+55	kehilangan kendaraan	18
+56	Kehilangan komponen kendaraan	81
+57	Kehilangan komponen kendaraan	13
+58	kehilangan barang	12
+59	kehilangan barang	74
+60	kehilangan kendaraan	72
+61	Kehilangan komponen kendaraan	9
+62	kehilangan barang	8
+63	kehilangan kendaraan	38
+64	kehilangan kendaraan	52
+65	Kehilangan komponen kendaraan	79
+66	kehilangan kendaraan	50
+67	Kehilangan komponen kendaraan	80
+68	kehilangan barang	44
+69	kehilangan kendaraan	54
+70	Kehilangan komponen kendaraan	97
+71	kehilangan barang	48
+72	kehilangan barang	34
+73	kehilangan barang	93
+74	kehilangan barang	60
+75	Kehilangan komponen kendaraan	22
+76	kehilangan barang	64
+77	kehilangan barang	1
+78	kehilangan kendaraan	22
+79	Kehilangan komponen kendaraan	39
+80	kehilangan kendaraan	59
+81	kehilangan kendaraan	70
+82	Kehilangan komponen kendaraan	13
+83	kehilangan kendaraan	1
+84	kehilangan barang	42
+85	kehilangan kendaraan	66
+86	kehilangan kendaraan	55
+87	kehilangan barang	43
+88	kehilangan barang	20
+89	kehilangan barang	58
+90	Kehilangan komponen kendaraan	53
+91	kehilangan barang	3
+92	Kehilangan komponen kendaraan	43
+93	kehilangan kendaraan	80
+94	kehilangan barang	55
+95	Kehilangan komponen kendaraan	92
+96	Kehilangan komponen kendaraan	29
+97	Kehilangan komponen kendaraan	14
+98	Kehilangan komponen kendaraan	96
+99	kehilangan kendaraan	8
 \.
 
 
@@ -1255,106 +1255,106 @@ COPY public.jabatan (id_jabatan, nama_jabatan, hak_akses, gaji_pokok) FROM stdin
 --
 
 COPY public.jadwal (no_struk, tanggal, jam_masuk, jam_keluar, id_petugas, plat_nomor, bayar, no_pintu) FROM stdin;
-0	2025-05-12 00:00:00+07	8:51	11:21	0	S 9122 YA	5000	5
-1	2023-08-17 00:00:00+07	7:46	10:13	2	H 8312 R	5000	9
-2	2023-01-16 00:00:00+07	9:33	12:55	4	S 5328 M	5000	7
-3	2022-04-12 00:00:00+07	8:10	12:57	8	L 8937 CE	5000	9
-4	2021-10-20 00:00:00+07	8:56	12:10	0	AB 3877 XD	3000	2
-5	2025-04-16 00:00:00+07	9:33	12:11	5	A 9453 X	5000	9
-6	2022-06-01 00:00:00+07	7:21	10:20	0	E 1455 X	5000	5
-7	2024-07-26 00:00:00+07	8:28	12:03	0	N 4488 XV	5000	0
-8	2022-08-22 00:00:00+07	8:23	10:29	9	AD 4588 CJ	5000	7
-9	2023-09-22 00:00:00+07	7:26	11:27	4	T 8411 I	5000	1
-10	2024-05-05 00:00:00+07	8:35	10:02	9	F 1415 HM	5000	7
-11	2023-07-11 00:00:00+07	9:51	10:20	5	M 9488 G	5000	9
-12	2025-10-27 00:00:00+07	8:13	10:58	5	G 3629 ZF	5000	8
-13	2025-10-26 00:00:00+07	8:25	11:57	4	T 8681 T	3000	8
-14	2024-11-06 00:00:00+07	7:31	10:14	7	N 1861 C	3000	9
-15	2022-09-07 00:00:00+07	8:20	12:42	3	D 7444 JR	3000	7
-16	2021-07-22 00:00:00+07	8:39	11:36	5	AA 2525 M	5000	0
-17	2023-11-30 00:00:00+07	7:20	10:13	5	B 7911 Q	5000	7
-18	2021-07-31 00:00:00+07	8:12	10:02	6	M 8766 R	5000	3
-19	2024-01-30 00:00:00+07	8:18	11:03	1	E 3629 Y	5000	10
-20	2024-07-17 00:00:00+07	7:12	12:29	0	G 6742 C	3000	0
-21	2025-10-23 00:00:00+07	7:07	11:53	5	AB 2135 KU	3000	1
-22	2022-03-19 00:00:00+07	8:40	12:03	3	S 8372 L	5000	3
-23	2025-03-20 00:00:00+07	7:48	12:33	7	S 7952 SJ	3000	6
-24	2023-09-06 00:00:00+07	7:28	11:50	0	N 2941 NH	5000	0
-25	2024-08-30 00:00:00+07	7:39	10:56	2	F 9655 NY	5000	6
-26	2021-05-21 00:00:00+07	9:34	12:53	5	E 5383 WR	3000	7
-27	2021-02-19 00:00:00+07	8:04	10:23	7	T 6416 ZD	5000	0
-28	2022-11-25 00:00:00+07	7:03	12:59	1	K 3665 E	5000	10
-29	2021-10-13 00:00:00+07	7:47	11:19	0	K 9665 G	5000	0
-30	2021-11-09 00:00:00+07	9:56	11:19	9	B 3712 J	3000	1
-31	2024-05-19 00:00:00+07	7:21	11:26	8	A 6187 D	3000	1
-32	2022-10-20 00:00:00+07	8:39	10:12	2	G 8226 G	3000	7
-33	2022-08-18 00:00:00+07	9:56	11:04	5	L 1377 XL	3000	7
-34	2025-08-16 00:00:00+07	7:36	10:33	0	K 3711 SP	5000	7
-35	2022-06-24 00:00:00+07	8:41	11:58	1	H 1739 WQ	5000	10
-36	2025-07-07 00:00:00+07	9:02	10:57	6	E 9581 Q	3000	9
-37	2023-06-18 00:00:00+07	9:48	12:13	4	D 8728 N	5000	6
-38	2025-07-05 00:00:00+07	7:36	10:21	2	M 4816 KP	3000	1
-39	2021-06-30 00:00:00+07	8:58	12:17	5	L 5475 KM	3000	2
-40	2023-02-05 00:00:00+07	8:48	11:30	5	S 1861 KI	5000	3
-41	2025-02-26 00:00:00+07	9:34	11:23	0	AD 7885 T	3000	9
-42	2022-05-18 00:00:00+07	7:59	12:00	9	D 1132 K	5000	3
-43	2025-10-29 00:00:00+07	8:10	10:17	2	D 9732 M	5000	6
-44	2024-08-26 00:00:00+07	9:17	11:54	3	AB 8474 M	5000	2
-45	2022-05-10 00:00:00+07	7:57	12:35	5	A 9111 GO	5000	5
-46	2022-05-25 00:00:00+07	7:50	10:16	5	M 1158 M	3000	10
-47	2023-07-22 00:00:00+07	8:05	12:23	9	AA 9256 Y	3000	7
-48	2022-01-23 00:00:00+07	8:08	10:38	2	F 8645 A	3000	1
-49	2021-01-02 00:00:00+07	8:15	12:06	6	S 2832 VL	5000	7
-50	2023-07-30 00:00:00+07	7:52	12:21	7	B 1945 ML	5000	3
-51	2021-01-22 00:00:00+07	8:27	12:05	8	B 1636 R	3000	9
-52	2023-09-27 00:00:00+07	7:16	11:12	4	AD 7772 AT	5000	2
-53	2023-11-24 00:00:00+07	9:52	10:55	3	T 9275 V	5000	7
-54	2023-01-25 00:00:00+07	9:09	12:25	6	L 9496 WN	5000	8
-55	2022-04-22 00:00:00+07	7:46	12:57	9	T 8744 Y	5000	9
-56	2023-08-05 00:00:00+07	9:45	12:50	1	F 9348 E	5000	10
-57	2023-02-10 00:00:00+07	7:09	10:28	7	E 3185 G	3000	5
-58	2021-11-08 00:00:00+07	7:45	11:23	7	L 3791 Y	3000	1
-59	2024-08-30 00:00:00+07	9:43	12:55	6	N 8577 N	5000	10
-60	2021-12-12 00:00:00+07	8:40	11:12	2	AA 7713 HJ	5000	5
-61	2022-04-01 00:00:00+07	8:52	11:53	0	L 8828 M	3000	2
-62	2023-06-06 00:00:00+07	7:43	12:25	0	G 1292 R	5000	10
-63	2022-07-03 00:00:00+07	9:19	11:05	6	L 3595 ZR	3000	0
-64	2025-07-12 00:00:00+07	9:55	10:59	3	T 4487 QV	5000	5
-65	2022-10-26 00:00:00+07	8:48	10:48	0	AD 9256 R	3000	10
-66	2024-09-05 00:00:00+07	8:42	12:45	1	AA 7629 WM	5000	8
-67	2023-04-21 00:00:00+07	8:58	10:41	1	G 3537 FD	5000	8
-68	2024-07-23 00:00:00+07	8:19	11:17	5	S 8127 OR	5000	0
-69	2021-12-27 00:00:00+07	8:49	11:14	4	G 4821 P	3000	0
-70	2024-02-14 00:00:00+07	9:19	10:23	4	AB 9976 U	3000	7
-71	2021-07-15 00:00:00+07	8:03	10:58	1	B 6127 J	5000	3
-72	2021-07-28 00:00:00+07	9:39	11:00	6	AD 5578 D	5000	0
-73	2023-05-19 00:00:00+07	8:41	10:10	5	L 7714 QS	3000	6
-74	2024-07-10 00:00:00+07	8:11	11:51	8	AA 3743 I	5000	2
-75	2023-08-14 00:00:00+07	7:38	11:33	1	AB 6374 B	3000	7
-76	2022-11-12 00:00:00+07	9:55	10:07	4	B 6231 M	5000	9
-77	2023-11-15 00:00:00+07	7:35	11:27	4	AD 5432 QT	3000	8
-78	2025-02-06 00:00:00+07	7:33	12:10	9	AB 3611 N	3000	10
-79	2021-10-22 00:00:00+07	9:53	12:07	3	D 5651 PH	5000	8
-80	2021-12-11 00:00:00+07	7:56	11:16	0	T 8357 RZ	3000	8
-81	2024-11-19 00:00:00+07	8:22	10:43	0	B 3714 HC	3000	5
-82	2025-01-11 00:00:00+07	9:03	10:38	1	B 7216 O	3000	2
-83	2022-08-04 00:00:00+07	9:22	10:44	1	AD 2983 OJ	5000	9
-84	2025-01-16 00:00:00+07	7:57	10:57	8	AA 6264 F	5000	1
-85	2024-07-15 00:00:00+07	9:27	12:14	7	A 2429 EN	3000	8
-86	2023-06-14 00:00:00+07	8:07	10:00	0	L 1317 QU	3000	1
-87	2025-04-15 00:00:00+07	7:41	10:04	8	E 3831 YD	5000	1
-88	2023-01-16 00:00:00+07	7:07	12:00	8	D 9169 X	5000	8
-89	2024-06-23 00:00:00+07	8:53	10:36	4	AD 9536 ZG	5000	3
-90	2025-04-05 00:00:00+07	8:42	10:20	9	E 2874 L	5000	9
-91	2023-01-12 00:00:00+07	9:55	11:20	4	K 4867 MA	5000	7
-92	2024-03-25 00:00:00+07	8:44	12:06	1	E 5569 AI	5000	8
-93	2021-10-27 00:00:00+07	8:23	11:18	3	B 5621 S	3000	3
-94	2025-06-28 00:00:00+07	7:12	11:24	2	T 7266 H	5000	5
-95	2021-02-27 00:00:00+07	7:57	10:38	2	N 8958 ND	3000	2
-96	2025-09-21 00:00:00+07	8:00	11:38	4	AB 4824 E	5000	5
-97	2023-09-10 00:00:00+07	8:45	10:21	6	AD 2334 G	5000	1
-98	2024-11-15 00:00:00+07	7:18	12:17	7	N 2712 FH	5000	8
-99	2024-07-02 00:00:00+07	9:46	11:40	2	N 7262 S	5000	5
+0	2025-05-12 00:00:00+07	8:51	11:21	9	M 6838 E	5000	2
+1	2023-08-17 00:00:00+07	7:46	10:13	3	M 7731 D	5000	7
+2	2023-01-16 00:00:00+07	9:33	12:55	2	H 4156 FG	3000	0
+3	2022-04-12 00:00:00+07	8:10	12:57	3	S 5914 GT	3000	8
+4	2021-10-20 00:00:00+07	8:56	12:10	0	G 2521 SD	5000	8
+5	2025-04-16 00:00:00+07	9:33	12:11	7	M 1819 NJ	3000	8
+6	2022-06-01 00:00:00+07	7:21	10:20	1	AA 5279 S	5000	1
+7	2024-07-26 00:00:00+07	8:28	12:03	1	E 2824 CD	3000	8
+8	2022-08-22 00:00:00+07	8:23	10:29	9	H 6715 NC	3000	6
+9	2023-09-22 00:00:00+07	7:26	11:27	3	M 4536 K	3000	0
+10	2024-05-05 00:00:00+07	8:35	10:02	7	AD 7737 M	3000	2
+11	2023-07-11 00:00:00+07	9:51	10:20	3	L 7114 O	3000	1
+12	2025-10-27 00:00:00+07	8:13	10:58	6	K 4193 OT	5000	2
+13	2025-10-26 00:00:00+07	8:25	11:57	6	A 4261 R	5000	7
+14	2024-11-06 00:00:00+07	7:31	10:14	2	M 2481 O	3000	7
+15	2022-09-07 00:00:00+07	8:20	12:42	0	K 7642 L	3000	1
+16	2021-07-22 00:00:00+07	8:39	11:36	6	T 4411 N	3000	10
+17	2023-11-30 00:00:00+07	7:20	10:13	3	H 7161 I	5000	7
+18	2021-07-31 00:00:00+07	8:12	10:02	9	D 9567 NZ	3000	1
+19	2024-01-30 00:00:00+07	8:18	11:03	8	F 1686 Y	3000	6
+20	2024-07-17 00:00:00+07	7:12	12:29	3	B 2737 NV	3000	8
+21	2025-10-23 00:00:00+07	7:07	11:53	9	AA 8121 WV	3000	5
+22	2022-03-19 00:00:00+07	8:40	12:03	4	E 7815 JA	3000	3
+23	2025-03-20 00:00:00+07	7:48	12:33	9	G 5871 K	5000	7
+24	2023-09-06 00:00:00+07	7:28	11:50	8	A 4184 E	3000	3
+25	2024-08-30 00:00:00+07	7:39	10:56	0	T 3336 M	3000	0
+26	2021-05-21 00:00:00+07	9:34	12:53	6	A 9757 Q	5000	2
+27	2021-02-19 00:00:00+07	8:04	10:23	1	AD 8898 JX	5000	7
+28	2022-11-25 00:00:00+07	7:03	12:59	6	A 3532 A	3000	5
+29	2021-10-13 00:00:00+07	7:47	11:19	7	AB 8792 Y	5000	8
+30	2021-11-09 00:00:00+07	9:56	11:19	7	AB 1383 XY	3000	1
+31	2024-05-19 00:00:00+07	7:21	11:26	9	AD 2656 M	5000	7
+32	2022-10-20 00:00:00+07	8:39	10:12	8	K 8191 TD	5000	5
+33	2022-08-18 00:00:00+07	9:56	11:04	4	AD 1696 VK	5000	7
+34	2025-08-16 00:00:00+07	7:36	10:33	5	D 6119 Q	5000	9
+35	2022-06-24 00:00:00+07	8:41	11:58	8	E 5336 T	3000	0
+36	2025-07-07 00:00:00+07	9:02	10:57	0	F 8487 F	5000	3
+37	2023-06-18 00:00:00+07	9:48	12:13	4	K 7272 CL	3000	10
+38	2025-07-05 00:00:00+07	7:36	10:21	2	S 1462 YU	3000	6
+39	2021-06-30 00:00:00+07	8:58	12:17	1	B 7821 R	3000	0
+40	2023-02-05 00:00:00+07	8:48	11:30	6	M 8675 FK	3000	0
+41	2025-02-26 00:00:00+07	9:34	11:23	4	E 4537 RQ	5000	8
+42	2022-05-18 00:00:00+07	7:59	12:00	9	G 7692 Z	5000	8
+43	2025-10-29 00:00:00+07	8:10	10:17	4	T 6236 E	3000	2
+44	2024-08-26 00:00:00+07	9:17	11:54	0	AA 2112 H	5000	3
+45	2022-05-10 00:00:00+07	7:57	12:35	8	N 9728 WM	3000	10
+46	2022-05-25 00:00:00+07	7:50	10:16	9	N 2719 M	5000	9
+47	2023-07-22 00:00:00+07	8:05	12:23	8	D 3738 UZ	5000	10
+48	2022-01-23 00:00:00+07	8:08	10:38	5	E 3829 YN	3000	6
+49	2021-01-02 00:00:00+07	8:15	12:06	3	AB 3964 J	3000	3
+50	2023-07-30 00:00:00+07	7:52	12:21	8	E 2487 Y	5000	2
+51	2021-01-22 00:00:00+07	8:27	12:05	7	A 8685 D	3000	3
+52	2023-09-27 00:00:00+07	7:16	11:12	8	T 9193 TD	5000	7
+53	2023-11-24 00:00:00+07	9:52	10:55	9	AD 4822 X	5000	7
+54	2023-01-25 00:00:00+07	9:09	12:25	8	AA 4529 ZQ	3000	3
+55	2022-04-22 00:00:00+07	7:46	12:57	7	A 2264 R	5000	8
+56	2023-08-05 00:00:00+07	9:45	12:50	9	K 2793 V	3000	1
+57	2023-02-10 00:00:00+07	7:09	10:28	9	F 9355 V	3000	5
+58	2021-11-08 00:00:00+07	7:45	11:23	9	D 3972 VL	3000	6
+59	2024-08-30 00:00:00+07	9:43	12:55	1	L 1482 P	5000	2
+60	2021-12-12 00:00:00+07	8:40	11:12	7	AB 4829 J	3000	8
+61	2022-04-01 00:00:00+07	8:52	11:53	3	N 8458 FL	5000	3
+62	2023-06-06 00:00:00+07	7:43	12:25	6	K 8556 PD	5000	7
+63	2022-07-03 00:00:00+07	9:19	11:05	3	F 3335 JG	5000	0
+64	2025-07-12 00:00:00+07	9:55	10:59	6	M 1773 KX	3000	6
+65	2022-10-26 00:00:00+07	8:48	10:48	6	S 6782 KG	5000	9
+66	2024-09-05 00:00:00+07	8:42	12:45	5	A 7778 W	3000	5
+67	2023-04-21 00:00:00+07	8:58	10:41	4	T 8359 PP	3000	0
+68	2024-07-23 00:00:00+07	8:19	11:17	4	AD 8778 I	3000	8
+69	2021-12-27 00:00:00+07	8:49	11:14	1	AA 8135 FR	3000	3
+70	2024-02-14 00:00:00+07	9:19	10:23	8	E 5173 AS	5000	0
+71	2021-07-15 00:00:00+07	8:03	10:58	6	L 2648 P	3000	9
+72	2021-07-28 00:00:00+07	9:39	11:00	3	AB 5468 H	5000	8
+73	2023-05-19 00:00:00+07	8:41	10:10	6	N 9545 A	5000	0
+74	2024-07-10 00:00:00+07	8:11	11:51	0	N 4714 FW	5000	0
+75	2023-08-14 00:00:00+07	7:38	11:33	9	F 4357 CH	5000	0
+76	2022-11-12 00:00:00+07	9:55	10:07	7	H 6856 KR	5000	9
+77	2023-11-15 00:00:00+07	7:35	11:27	8	S 6917 P	5000	1
+78	2025-02-06 00:00:00+07	7:33	12:10	4	A 9928 T	3000	5
+79	2021-10-22 00:00:00+07	9:53	12:07	6	AB 5755 T	5000	8
+80	2021-12-11 00:00:00+07	7:56	11:16	7	H 9368 UR	5000	10
+81	2024-11-19 00:00:00+07	8:22	10:43	4	G 7415 NM	5000	7
+82	2025-01-11 00:00:00+07	9:03	10:38	8	G 9223 D	3000	5
+83	2022-08-04 00:00:00+07	9:22	10:44	8	L 2559 GW	5000	5
+84	2025-01-16 00:00:00+07	7:57	10:57	1	D 3414 F	5000	1
+85	2024-07-15 00:00:00+07	9:27	12:14	1	M 4816 KP	3000	10
+86	2023-06-14 00:00:00+07	8:07	10:00	5	A 7768 J	3000	0
+87	2025-04-15 00:00:00+07	7:41	10:04	7	D 9161 P	3000	7
+88	2023-01-16 00:00:00+07	7:07	12:00	3	N 7967 T	5000	1
+89	2024-06-23 00:00:00+07	8:53	10:36	4	M 4634 R	3000	5
+90	2025-04-05 00:00:00+07	8:42	10:20	8	N 6932 VQ	3000	0
+91	2023-01-12 00:00:00+07	9:55	11:20	7	AB 7183 IS	5000	9
+92	2024-03-25 00:00:00+07	8:44	12:06	4	AA 1581 FD	3000	10
+93	2021-10-27 00:00:00+07	8:23	11:18	8	A 8783 B	3000	10
+94	2025-06-28 00:00:00+07	7:12	11:24	8	A 4171 J	3000	5
+95	2021-02-27 00:00:00+07	7:57	10:38	4	AD 5294 SB	5000	10
+96	2025-09-21 00:00:00+07	8:00	11:38	9	S 8378 BL	3000	7
+97	2023-09-10 00:00:00+07	8:45	10:21	6	A 6931 P	3000	8
+98	2024-11-15 00:00:00+07	7:18	12:17	0	H 5415 E	3000	9
+99	2024-07-02 00:00:00+07	9:46	11:40	0	K 8354 H	5000	8
 \.
 
 
@@ -11675,5 +11675,5 @@ ALTER TABLE ONLY public.pintu
 -- PostgreSQL database dump complete
 --
 
-\unrestrict qGaQ36IZlN0hXwyNrwgdibaELB4V24TuF13ng0nYkUuAfYGXrgDWA1O5RzsFxXS
+\unrestrict WUX0bqQwCynheIg4aFwiCOnFdB1f5qSbpdrkyN91haJqZKsfbd7cD2N4oeH7RX0
 

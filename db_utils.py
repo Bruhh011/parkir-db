@@ -6,7 +6,6 @@ from getpass import getpass
 _pg_pass = None
 
 def _get_pg_pass():
-    """Prompt for password only once per process, or read from environment."""
     global _pg_pass
     if _pg_pass is None:
         _pg_pass = os.environ.get("PG_PASSWORD")
@@ -14,10 +13,8 @@ def _get_pg_pass():
             _pg_pass = getpass("Postgres password: ")
     return _pg_pass
 
-# Prompt once for the current process
 pg_pass = _get_pg_pass()
 
-# Export to environment for any subprocess launched from this process
 os.environ["PG_PASSWORD"] = pg_pass
 
 def db_restart():

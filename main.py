@@ -70,9 +70,32 @@ with open("saved_db.sql", "w") as outfile:
         stdout=outfile
     )
     if result.returncode == 0:
-        print(f"\033[92m{process} Success\033[0m")
+        print(f"\033[92mexport_db Success\033[0m")
     else:
-        print(f"\033[91m{process} Failed\033[0m")
+        print(f"\033[91mexport_db Failed\033[0m")
+
+
+with open("struktur.txt", "w") as outfile:
+    all_table = [
+            "absensi",
+            "insiden",
+            "jabatan",
+            "jadwal",
+            "kendaraan",
+            "lokasi",
+            "menjabat",
+            "petugas",
+            "pintu"
+            ]
+    for i in all_table:
+        result = subprocess.run(
+                ["psql", "-U", "postgres", "-d", "parkir", "-c" rf"\d {i}"], 
+                stdout=outfile)
+    if result.returncode == 0:
+        print(f"\033[92mexport_structure Success\033[0m")
+    else:
+        print(f"\033[91mexport_structure Failed\033[0m")
+
 
 
 db_close(conn, cur)
