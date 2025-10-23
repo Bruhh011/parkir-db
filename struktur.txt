@@ -1,0 +1,111 @@
+                          Table "public.absensi"
+    Column     |           Type           | Collation | Nullable | Default 
+---------------+--------------------------+-----------+----------+---------
+ id_petugas    | integer                  |           | not null | 
+ tanggal_absen | timestamp with time zone |           | not null | 
+ kehadiran     | character varying(255)   |           |          | 
+Indexes:
+    "absensi_pkey" PRIMARY KEY, btree (id_petugas, tanggal_absen)
+Foreign-key constraints:
+    "absensi_id_petugas" FOREIGN KEY (id_petugas) REFERENCES petugas(id_petugas) NOT VALID
+
+                        Table "public.insiden"
+   Column   |          Type          | Collation | Nullable | Default 
+------------+------------------------+-----------+----------+---------
+ id_rekaman | integer                |           | not null | 
+ keterangan | character varying(255) |           |          | 
+ no_struk   | integer                |           |          | 
+Indexes:
+    "insiden_ID_Rekaman" PRIMARY KEY, btree (id_rekaman)
+Foreign-key constraints:
+    "insiden_NO_struk" FOREIGN KEY (no_struk) REFERENCES jadwal(no_struk) NOT VALID
+
+                         Table "public.jabatan"
+    Column    |          Type          | Collation | Nullable | Default 
+--------------+------------------------+-----------+----------+---------
+ id_jabatan   | integer                |           | not null | 
+ nama_jabatan | character varying(255) |           |          | 
+ hak_akses    | text                   |           |          | 
+ gaji_pokok   | double precision       |           |          | 
+Indexes:
+    "jabatan_pkey" PRIMARY KEY, btree (id_jabatan)
+Referenced by:
+    TABLE "menjabat" CONSTRAINT "menjabat_id_jabatan" FOREIGN KEY (id_jabatan) REFERENCES jabatan(id_jabatan) NOT VALID
+
+                         Table "public.jadwal"
+   Column   |           Type           | Collation | Nullable | Default 
+------------+--------------------------+-----------+----------+---------
+ no_struk   | integer                  |           | not null | 
+ tanggal    | timestamp with time zone |           |          | 
+ jam_masuk  | character varying(255)   |           |          | 
+ jam_keluar | character varying(255)   |           |          | 
+ id_petugas | integer                  |           |          | 
+ plat_nomor | character varying(255)   |           |          | 
+ bayar      | character varying(255)   |           |          | 
+ no_pintu   | integer                  |           |          | 
+Indexes:
+    "jadwal_NO_struk" PRIMARY KEY, btree (no_struk)
+Foreign-key constraints:
+    "id_petugas_fkey" FOREIGN KEY (id_petugas) REFERENCES petugas(id_petugas)
+    "jadwal_no_pintu" FOREIGN KEY (no_pintu) REFERENCES pintu(no_pintu) NOT VALID
+    "jadwal_plat_nomer" FOREIGN KEY (plat_nomor) REFERENCES kendaraan(plat_nomor) NOT VALID
+Referenced by:
+    TABLE "insiden" CONSTRAINT "insiden_NO_struk" FOREIGN KEY (no_struk) REFERENCES jadwal(no_struk) NOT VALID
+
+                         Table "public.kendaraan"
+     Column      |          Type          | Collation | Nullable | Default 
+-----------------+------------------------+-----------+----------+---------
+ plat_nomor      | character varying(255) |           | not null | 
+ jenis_kendaraan | text                   |           |          | 
+Indexes:
+    "kendaraan_pkey" PRIMARY KEY, btree (plat_nomor)
+Referenced by:
+    TABLE "jadwal" CONSTRAINT "jadwal_plat_nomer" FOREIGN KEY (plat_nomor) REFERENCES kendaraan(plat_nomor) NOT VALID
+
+                         Table "public.lokasi"
+    Column    |          Type          | Collation | Nullable | Default 
+--------------+------------------------+-----------+----------+---------
+ lantai       | integer                |           |          | 
+ no_tempat    | integer                |           | not null | 
+ ketersediaan | character varying(255) |           |          | 
+Indexes:
+    "lokasi_pkey" PRIMARY KEY, btree (no_tempat)
+Referenced by:
+    TABLE "pintu" CONSTRAINT "pintu_no_tempat" FOREIGN KEY (no_tempat) REFERENCES lokasi(no_tempat) NOT VALID
+
+                Table "public.menjabat"
+   Column   |  Type   | Collation | Nullable | Default 
+------------+---------+-----------+----------+---------
+ id_petugas | integer |           | not null | 
+ id_jabatan | integer |           | not null | 
+Indexes:
+    "menjabat_pkey" PRIMARY KEY, btree (id_petugas, id_jabatan)
+Foreign-key constraints:
+    "menjabat_id_jabatan" FOREIGN KEY (id_jabatan) REFERENCES jabatan(id_jabatan) NOT VALID
+    "menjabat_id_petugas" FOREIGN KEY (id_petugas) REFERENCES petugas(id_petugas) NOT VALID
+
+                         Table "public.petugas"
+    Column    |          Type          | Collation | Nullable | Default 
+--------------+------------------------+-----------+----------+---------
+ id_petugas   | integer                |           | not null | 
+ nama_petugas | character varying(255) |           |          | 
+Indexes:
+    "petugas_pkey" PRIMARY KEY, btree (id_petugas)
+Referenced by:
+    TABLE "absensi" CONSTRAINT "absensi_id_petugas" FOREIGN KEY (id_petugas) REFERENCES petugas(id_petugas) NOT VALID
+    TABLE "jadwal" CONSTRAINT "id_petugas_fkey" FOREIGN KEY (id_petugas) REFERENCES petugas(id_petugas)
+    TABLE "menjabat" CONSTRAINT "menjabat_id_petugas" FOREIGN KEY (id_petugas) REFERENCES petugas(id_petugas) NOT VALID
+
+                         Table "public.pintu"
+   Column    |          Type          | Collation | Nullable | Default 
+-------------+------------------------+-----------+----------+---------
+ no_pintu    | integer                |           | not null | 
+ jenis_pintu | character varying(255) |           |          | 
+ no_tempat   | integer                |           |          | 
+Indexes:
+    "pintu_pkey" PRIMARY KEY, btree (no_pintu)
+Foreign-key constraints:
+    "pintu_no_tempat" FOREIGN KEY (no_tempat) REFERENCES lokasi(no_tempat) NOT VALID
+Referenced by:
+    TABLE "jadwal" CONSTRAINT "jadwal_no_pintu" FOREIGN KEY (no_pintu) REFERENCES pintu(no_pintu) NOT VALID
+
