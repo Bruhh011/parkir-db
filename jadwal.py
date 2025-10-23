@@ -36,7 +36,7 @@ for i in range(100):
     rand_date = random_date(start_date, end_date).date()
     rand_jam_masuk = rstr.xeger(r'[7-9]:[0-5][0-9]')
     rand_jam_keluar = rstr.xeger(r'[1][0-2]:[0-5][0-9]')
-    cur.execute("INSERT INTO jadwal(no_struk, tanggal, jam_masuk,jam_keluar, id_petugas, plat_nomor, bayar, no_pintu, no_tempat) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s) ON CONFLICT DO NOTHING", (i, rand_date,  rand_jam_masuk, rand_jam_keluar, rand_petugas, rand_plat, rand_bayar, rand_no_pintu, rand_no_tempat,))
+    cur.execute("INSERT INTO jadwal(no_struk, tanggal, jam_masuk,jam_keluar, id_petugas, plat_nomor, bayar, no_pintu) VALUES (%s, %s, %s, %s, %s, %s, %s, %s) ON CONFLICT DO NOTHING", (i, rand_date,  rand_jam_masuk, rand_jam_keluar, rand_petugas, rand_plat, rand_bayar, rand_no_pintu,))
 
 
 db_close(conn, cur)
