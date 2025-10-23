@@ -5,4 +5,5 @@ usage: python main.py
 
 masukin password postgresql, trs masukin path psql dan pg_dump (default di windows: C:\Program Files\PostgreSQL\<versi>\bin) dan path python (default di windows jika python untuk 1 user: C:\Users\<nama user>\AppData\Local\Programs\pyth03X)
 
+atau bisa langsung import saved_db.sql karena isi sama seperti jika menjalankan script. script hanya digunakan utk bootstrap.
 done
